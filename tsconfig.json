@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ion-item-e": [
+        "dist/ion-item-e"
+      ],
+      "ion-item-e/*": [
+        "dist/ion-item-e/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
